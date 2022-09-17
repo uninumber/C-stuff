@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+  int v1=0, v2=0;
+
+  cout << "Please enter to integer to find numbers between them: ";
+  cin >> v1 >> v2;
+
+  int increment = (v2-v1)/abs(v2-v1);
+
+  int current = v1;
+
+  int max = v2 + increment;
+
+  while (current != max) {
+
+    cout << current << "\n";
+
+    ++current;
+  }
+}

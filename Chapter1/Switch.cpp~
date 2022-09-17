@@ -1,0 +1,43 @@
+#include <iostream>
+
+int main()
+{
+  int choice {};
+
+  std::cout << "Your electronic recipe book is at your service.\n"
+	    << "You can choose from the following delicious dishes:\n"
+	    << "1. Boiled eggs\n"
+	    << "2. Fried eggs\n"
+	    << "3. Scrambled eggs\n"
+	    << "4. Coddled eggs\n\n"
+	    << "Enter your selection number: ";
+
+  std::cin >> choice;
+
+  switch(choice)
+    {
+    case 1:
+
+      std::cout << "Let's boil some eggs!" << std::endl;
+      break;
+
+    case 2:
+
+      std::cout<< "Let's fry some eggs!" << std::endl;
+      break;
+
+    case 3:
+
+      std::cout << "Let's scramble some eggs!" << std::endl;
+      break;
+
+    case 4:
+
+      std::cout << "Let's coddle some eggs!" << std::endl;
+      break;
+
+    default:
+
+      std::cout << "The operation is invalid.Please try raw eggs.";
+    }
+}

@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+  enum class Colors {Yellow, White, Black, Purple, Blue, Red};
+
+  Colors "ff0000" {Color::Red}, #0000ff {Colors::Blue}, "00ff00" {Colors:Green};
+
+  Yellow = Color::Red + Colors::Green;
+
+}

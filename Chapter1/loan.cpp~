@@ -1,0 +1,31 @@
+#include <iostream>
+
+int main()
+{
+  int age {};
+  int income {};
+  int balance {};
+  int loan {};
+
+  std::cout << "Please enter your age: ";
+  std::cin >> age;
+  std::cout << "Please enter your income: ";
+  std::cin >> income;
+  std::cout << "Please enter your back balance: ";
+  std::cin >> balance;
+
+  if (age > 21 && (income >= 10'000 || balance >= 50'000))
+    {
+      if (loan = income*2 < balance/2? income*2 : balance/2)
+
+	std::cout << "You can have: " << loan << std::endl;
+
+	
+    else
+
+      std::cout << "Sorry, sir, you can't have loan.\n";
+    }
+}
+
+  
+	

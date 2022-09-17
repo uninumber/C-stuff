@@ -1,0 +1,27 @@
+#include <iostream>
+
+int main()
+{
+
+  std::cout << "Enter an integer between 50 || 100 :\n";
+
+  int value {};
+
+  std::cin >> value;
+
+  if (value != 0)
+
+    std::cout << "The integer difference from zero.\n";
+
+  if (value < 50)
+
+    std::cout << "The integer is invalid - It's less than 50.\n";
+
+  if (value > 100)
+
+    std::cout << "The integer is invalid - It's greater than 100.\n";
+
+  std::cout << "The value is: " << value;
+}
+
+  

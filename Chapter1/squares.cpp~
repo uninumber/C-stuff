@@ -1,0 +1,15 @@
+#include <iosteam>
+
+int main()
+{
+  unsigned int limit {};
+
+  std::cout << "Enter a limit of numbers: ";
+  std::cin >> limit;
+
+  for (size_t  i {}; i<limit; ++i)
+    {
+      i = i*i;
+      std::cout << i << std::endl;
+    }
+}

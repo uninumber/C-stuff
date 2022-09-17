@@ -1,0 +1,28 @@
+#include <iostream>
+#include <vector>
+#include <numeric>
+
+int main()
+{
+  std::vector<int> x;
+  double sum {};
+  double input {};
+
+  std::cout << "Enter a value to get a sum overall.\n";
+
+  while (true)
+    {
+      std::cout << ": ";
+      std::cin >> input;
+     
+      if (x==0);
+      break;
+
+      x.push_back(input);
+    }
+
+  sum=accumulate(x.begin(), x.end(), 0);
+  std::cout << "Your sum is: " << sum << std::endl;
+  std::cout << "Your average is: " << sum/x.size() << std::endl;
+}
+  

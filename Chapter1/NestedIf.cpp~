@@ -1,0 +1,28 @@
+#include <iostream>
+
+int main()
+{
+  char letter {};
+
+  std::cout << "Enter a char:";
+
+  std::cin >> letter;
+
+  if (char >= 'A')
+    {
+      if (char <= 'Z')
+	{
+	  std::cout << "You entered an Uppercase letter.";
+	  return 0;
+	}
+    }
+
+  if (char >= 'a')
+    {
+      if (char <= 'z')
+	{
+	  std::cout << "You entered an Lowercase letter.";
+	  return 0;
+	}
+    }
+}

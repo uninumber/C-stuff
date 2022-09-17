@@ -1,0 +1,16 @@
+using namespace std;
+
+int main()
+{
+  int apple_count {15};
+
+  int orange_count {5};
+
+  itn total_fruit {apple_count + orange_count};
+
+  cout << "The value of apple_count is: " << apple_count << "\n";
+
+  cout << "The value of orange_count is: " << orange_count << "\n";
+
+  cout << "The total fruit count is: " << total_fruit << "\n";
+}

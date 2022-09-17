@@ -1,0 +1,7 @@
+When defining a variable, you don't need to state its type explicitly when  it can be defined from the initializer:
+
+auto b = true;     // a boolean
+auto c = 'h';      // a char; 
+auto i = 123;      // an int;
+auto d = 1.2;      // a double;
+auto z = sqrt(y);  //z has type fo whatever sqrt(y) returns;

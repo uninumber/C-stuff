@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main()
+{
+  int v1=0, v2=0;
+
+  cout << "Etner two values to swap it:\n ";
+  cin >> v1 >> v2;
+
+  cout << "Before swap: v1=" << v1
+       << "; v2=" <<v2 << "\n";
+
+  v1 = v1*v2;
+  v2 = v1/v2;
+  v1 = v1/v2;
+
+  cout << "After swap: v1=" << v1
+       << "; v2=" << v2 << "\n";
+}
+  

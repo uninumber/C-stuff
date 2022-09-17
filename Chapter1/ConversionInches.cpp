@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  unsigned int inches = 0;
+
+  unsigned int total_inches = 0;
+  unsigned int feet = 0;
+
+
+  const unsigned inches_per_foot {12};
+
+
+  cout << "Enter a distance in inches to conver it to feet and inches: ";
+  cin >> total_inches;
+
+  feet = total_inches / inches_per_foot;
+  inches = total_inches % inches_per_foot;
+
+  cout << "A distance in feet in inches: "
+       << feet << " feet "
+       << inches << " inches.\n";
+}
+  

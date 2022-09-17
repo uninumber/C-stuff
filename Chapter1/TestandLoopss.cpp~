@@ -1,0 +1,21 @@
+#include <iostream>
+
+
+using namespace std;
+
+int main()
+{
+  int n, k
+    
+bool accept() 1 2 3 [4]
+{
+    cout << "Do you want to proceed(y or n)?\n";
+
+    char answer=0;
+    cin >> answer;
+
+    if (answer=='y') return true; 
+    return false; 
+}
+
+}
